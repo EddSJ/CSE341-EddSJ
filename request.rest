@@ -1,0 +1,24 @@
+//LOCALHOST
+###
+Send Request
+GET http://localhost:9000/contact/get-all
+###
+Send Request
+GET http://localhost:9000/contact/get-one/63bf5626756b0ed175acb9e5
+###
+Send Request
+GET http://localhost:9000/contact/get-one/63bf5681756b0ed175acb9e7
+###
+Send Request
+GET http://localhost:9000/contact/get-one/63bf56b6756b0ed175acb9e9
+
+//PRODUCTION Deploy
+###
+Send Request
+GET http://localhost:9000/contact/get-one/63bf56b6756b0ed175acb9e9
+###
+Send Request
+GET http://localhost:9000/contact/get-one/63bf5681756b0ed175acb9e7
+###
+Send Request
+GET http://localhost:9000/contact/get-one/63bf5626756b0ed175acb9e5
